@@ -166,7 +166,7 @@ nav {
 
 .subtitle {
   text-align: center;
-  font-size: 1.5rem;         /* ← 글씨 크기 */
+  font-size: 2rem;         /* ← 글씨 크기 */
   color: #76805b;          /* ← 글씨 색 */
   font-family: 'Playfair Display', serif;
   font-style: italic;
