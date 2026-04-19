@@ -205,7 +205,7 @@ nav {
   height: 380px;
   object-fit: cover;
   border-radius: 50% 50% 0 0;
-  object-position: center 30%;  /* ← 숫자 크게 할수록 아래로 내려가요 */
+  object-position: center 50%;  /* ← 숫자 크게 할수록 아래로 내려가요 */
 }
 
 .info-text h3 {
