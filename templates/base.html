@@ -20,7 +20,6 @@
     <div class="hamburger" onclick="toggleMenu()">
       <span></span><span></span><span></span>
     </div>
-    <div class="dropdown" id="dropdown">
       <a href="/info">Information
         <span class="menu-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
@@ -70,8 +69,11 @@
       </a>
     </div>
   </nav>
+   </nav>
   <div class="subtitle">bake shop</div>
+
   {% block content %}{% endblock %}
+
   <script>
     function toggleMenu() {
       const dropdown = document.getElementById('dropdown');
@@ -80,17 +82,3 @@
   </script>
 </body>
 </html>
-
-이게 base_html 이고
-
-{% extends "base.html" %}
-{% block content %}
-<header></header>
-<section class="gallery">
-  <div class="gallery-grid">
-    <img src="/static/1.jpg" alt="쿠키">
-    <img src="/static/2.jpg" alt="바나나브레드">
-    <img src="/static/3.jpg" alt="피스타치오케이크">
-  </div>
-</section>
-{% endblock %}
