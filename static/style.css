@@ -191,13 +191,13 @@ nav {
 
 .info-container {
   display: flex;
-  gap: 60px;
+  gap: 60px;              /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
-  max-width: 1200px;   /* ← 가로 크기 */
-  margin: 0 auto;
-  border: 1px solid #76805b;   /* ← 선 굵기, 선 색 */
-  border-radius: 12px;   /* ← 모서리 둥글기, 0이면 사각형 */
-  padding: 60px;   /* ← 안쪽 여백, 높이에 영향 줘요 */
+  max-width: 1500px;       /* ← 박스 가로 크기 */
+  margin: 0 auto;         /* ← 가운데 정렬 */
+  border: 1px solid #c8956c;  /* ← 선 굵기 | 선 색 */
+  border-radius: 12px;    /* ← 모서리 둥글기, 0이면 사각형 */
+  padding: 80px;          /* ← 안쪽 여백, 클수록 높이 늘어남 */
 }
 
 .info-image img {
@@ -205,6 +205,7 @@ nav {
   height: 380px;
   object-fit: cover;
   border-radius: 50% 50% 0 0;
+  object-position: center 30%;  /* ← 숫자 크게 할수록 아래로 내려가요 */
 }
 
 .info-text h3 {
