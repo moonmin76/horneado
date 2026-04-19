@@ -162,7 +162,7 @@ nav {
   width: 550px;
   height: 750px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 .subtitle {
