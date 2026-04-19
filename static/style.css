@@ -187,6 +187,7 @@ nav {
 
 .info {
   padding: 40px;
+  padding-top: 80px;   /* ← 숫자 크게 할수록 아래로 내려가요 */
   display: flex;
   justify-content: center;
 }
