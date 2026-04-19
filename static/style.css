@@ -214,13 +214,14 @@ nav {
 }
 
 .info-text h3 {
-  margin-left: 0px;    /* ← 숫자 크게 할수록 오른쪽으로 */
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: #76805b;
-  font-size: 2rem;
-  margin-bottom: 10px;
-  margin-top: 30px;
+  font-size: 1.3rem;        /* ← Vision/Mission 글씨 크기 */
+  font-weight: 700;         /* ← Vision/Mission 글씨 굵기, 100~900 */
+  margin-bottom: 10px;      /* ← 제목과 설명 사이 간격 */
+  margin-top: 30px;         /* ← 위 간격 */
+  margin-left: 0px;         /* ← 왼쪽 위치 */
 }
 
 .info-text h3:first-child {
@@ -230,7 +231,10 @@ nav {
 .info-text p {
   color: #76805b;
   line-height: 1.8;
-  font-size: 0.95rem;
+  font-size: 0.95rem;       /* ← 설명 글씨 크기 */
+  font-weight: 400;         /* ← 설명 글씨 굵기, 100~900 */
+  margin-left: 0px;         /* ← 설명 왼쪽 위치 */
+  margin-bottom: 0px;       /* ← 설명 아래 간격 */
 }
 
 /* 모바일 반응형 */
