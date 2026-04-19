@@ -227,6 +227,14 @@ nav {
   font-size: 0.95rem;
 }
 
+.info-image {
+  margin-left: 0px;   /* ← 사진 오른쪽으로, 클수록 더 오른쪽 */
+}
+
+.info-text {
+  margin-right: 20px;  /* ← 글씨 왼쪽으로, 클수록 더 왼쪽 */
+}
+
 /* 모바일 반응형 */
 @media (max-width: 768px) {
   .logo {
