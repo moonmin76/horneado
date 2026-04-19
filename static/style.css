@@ -210,7 +210,7 @@ nav {
   width: 280px;             /* ← 사진 가로 크기 */
   height: 380px;            /* ← 사진 세로 크기 */
   object-fit: cover;
-  border-radius: 0px;
+  border-radius: 30px;
   object-position: center 50%;
 }
 
