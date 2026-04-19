@@ -96,6 +96,7 @@ nav {
 }
 
 .dropdown {
+  display: none;
   position: fixed;
   top: 70px;
   right: 0;
