@@ -186,11 +186,9 @@ nav {
 }
 
 .info {
-  padding: 60px 40px;
-}
-
-.info {
-  padding: 40px;            /* ← 바깥 여백 */
+  padding: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .info-container {
@@ -199,7 +197,7 @@ nav {
   align-items: center;
   width: 120%;      /* ← 화면의 90% 차지, 자동으로 가운데 정렬 */
   height: 450px;            /* ← 세로 높이 */
-  margin: 0 auto;           /* ← 가운데 정렬 */
+  margin: 0;           /* ← 가운데 정렬 */
   border: 2px solid #76805b;  /* ← 선 굵기 | 선 색 */
   border-radius: 1px;       /* ← 모서리 둥글기 */
   padding: 60px;            /* ← 안쪽 여백 */
