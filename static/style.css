@@ -3,7 +3,6 @@ body {
   margin: 0;
   background-color: #fdf8f2;
   color: #3d2b1f;
-  overflow-x: hidden;
 }
 
 header {
@@ -147,13 +146,67 @@ nav {
 .gallery {
   padding: 0px;
   margin-top: 40px;
-  max-width: 100%;      /* ← 추가 */
 }
 
 .gallery-grid {
   display: flex;
   gap: 10px;
   justify-content: center;
-  padding: 0 10px;      /* ← 추가 */
-  box-sizing: border-box;  /* ← 추가 */
-  width
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.gallery-grid img {
+  width: 550px;
+  height: 750px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #76805b;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: -20px;
+  letter-spacing: 0.15rem;
+  margin-bottom: 0px;
+}
+
+.dropdown a:hover {
+  background-color: #fdf8f2;
+  opacity: 1;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 768px) {
+  nav {
+    padding: 0px 20px;
+    height: 70px;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .gallery-grid {
+    gap: 5px;
+    padding: 0 5px;
+  }
+  .gallery-grid img {
+    flex: 1;
+    width: 0;
+    height: 150px;
+  }
+  .dropdown {
+    width: 100vw;
+    right: 0;
+    top: 70px;
+  }
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
