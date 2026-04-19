@@ -206,8 +206,8 @@ nav {
 
 .info-image img {
   margin-left: 0px;    /* ← 숫자 크게 할수록 오른쪽으로 */
-  width: 420px;             /* ← 사진 가로 크기 */
-  height: 380px;            /* ← 사진 세로 크기 */
+  width: 320px;             /* ← 사진 가로 크기 */
+  height: 280px;            /* ← 사진 세로 크기 */
   object-fit: cover;
   border-radius: 50% 50% 0 0;
   object-position: center 50%;
