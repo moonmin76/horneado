@@ -228,7 +228,7 @@ nav {
 }
 
 .info-image {
-  margin-left: 0px;   /* ← 사진 오른쪽으로, 클수록 더 오른쪽 */
+  margin-left: -20px;   /* ← 사진 오른쪽으로, 클수록 더 오른쪽 */
 }
 
 .info-text {
