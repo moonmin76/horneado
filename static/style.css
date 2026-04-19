@@ -183,9 +183,12 @@ nav {
 
 /* 모바일 반응형 */
 @media (max-width: 768px) {
-  nav {
-    padding: 0px 20px;
-    height: 70px;
+  .gallery-grid {
+    gap: 5px;
+  }
+  .gallery-grid img {
+    width: 32%;
+    height: 150px;
   }
   .logo {
     font-size: 2rem;
