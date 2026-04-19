@@ -117,7 +117,7 @@ nav {
   display: flex;
   justify-content: space-between;  /* ← 글씨 왼쪽, 이모지 오른쪽 */
   align-items: center;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 8px;
   padding-left: 20px;              /* ← 글씨 왼쪽 위치 */
   padding-right: 20px;             /* ← 이모지 오른쪽 위치 */
@@ -171,7 +171,7 @@ nav {
   color: #76805b;          /* ← 글씨 색 */
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  margin-top: -5px;         /* ← 로고와 간격 */
+  margin-top: -15px;         /* ← 로고와 간격 */
   margin-bottom: 10px;     /* ← 아래 간격 */
   letter-spacing: 0.15rem;  /* ← 글자 사이 간격 */
   margin-bottom: 0px;    /* ← 추가 */
