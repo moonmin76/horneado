@@ -199,7 +199,7 @@ nav {
   .gallery-grid {
     flex-direction: column;
     gap: 10px;
-    padding: 0 15px;
+    padding: 0
     overflow: hidden;
   }
   .gallery-grid img {
