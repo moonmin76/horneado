@@ -187,7 +187,7 @@ nav {
 
 .info {
   padding: 40px;
-  padding-top: 80px;   /* ← 숫자 크게 할수록 아래로 내려가요 */
+  padding-top: 100px;   /* ← 숫자 크게 할수록 아래로 내려가요 */
   display: flex;
   justify-content: center;
 }
@@ -210,7 +210,7 @@ nav {
   width: 280px;             /* ← 사진 가로 크기 */
   height: 380px;            /* ← 사진 세로 크기 */
   object-fit: cover;
-  border-radius: 50% 50% 0 0;
+  border-radius: 0px;
   object-position: center 50%;
 }
 
