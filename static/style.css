@@ -155,6 +155,7 @@ nav {
   display: flex;
   gap: 30px;
   justify-content: center;
+  padding: 0 30px;  /* ← 왼쪽 여백 */
 }
 
 .gallery-grid img {
@@ -203,6 +204,7 @@ nav {
   .gallery-grid img {
     width: 100%;
     height: 400px;
+    padding: 0 30px;  /* ← 왼쪽여백 */
   }
   .dropdown {
     width: 100vw;
