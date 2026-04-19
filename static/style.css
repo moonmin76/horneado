@@ -161,7 +161,7 @@ nav {
 }
 
 .gallery-grid img {
-  width: 550px;
+  width: calc(33vw - 20px);
   height: 750px;
   object-fit: cover;
   border-radius: 8px;
