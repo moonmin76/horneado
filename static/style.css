@@ -244,7 +244,7 @@ nav {
     font-size: 2rem;
   }
   .hamburger {
-    top: 75%;  /* ← 숫자 조절 */
+    top: 75%;
   }
   .subtitle {
     font-size: 1.1rem;
@@ -266,5 +266,20 @@ nav {
   }
   .menu-grid {
     grid-template-columns: 1fr;
+  }
+  .info {
+    padding: 20px;            /* ← 바깥 여백 */
+    padding-top: 40px;        /* ← 위 여백 */
+  }
+  .info-container {
+    flex-direction: column;   /* ← 사진과 글 세로로 배치 */
+    width: 100%;              /* ← 화면 꽉 채우기 */
+    height: auto;             /* ← 높이 자동 */
+    padding: 30px;            /* ← 안쪽 여백 */
+    gap: 30px;                /* ← 사진과 글 사이 간격 */
+  }
+  .info-image img {
+    width: 100%;              /* ← 사진 가로 꽉 채우기 */
+    height: 250px;            /* ← 사진 세로 크기 */
   }
 }
