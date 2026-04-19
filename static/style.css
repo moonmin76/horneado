@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #fdf8f2;
   color: #3d2b1f;
+  overflow-x: hidden;  /* ← 이거 추가 */
 }
 
 header {
