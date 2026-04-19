@@ -196,7 +196,7 @@ nav {
   gap: 80px;                /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
   width: 200%;      /* ← 화면의 90% 차지, 자동으로 가운데 정렬 */
-  height: 450px;            /* ← 세로 높이 */
+  height: 500px;            /* ← 세로 높이 */
   margin: 0;           /* ← 가운데 정렬 */
   border: 2px solid #76805b;  /* ← 선 굵기 | 선 색 */
   border-radius: 3px;       /* ← 모서리 둥글기 */
