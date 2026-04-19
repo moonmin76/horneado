@@ -191,7 +191,7 @@ nav {
     font-size: 2rem;
   }
   .hamburger {
-    top: 90%;  /* ← 숫자 조절 */
+    top: 75%;  /* ← 숫자 조절 */
   }
   .subtitle {
     font-size: 1.1rem;
@@ -209,7 +209,7 @@ nav {
   .dropdown {
     width: 100vw;
     right: 0;
-    top: 60px;
+    top: 75px;
   }
   .menu-grid {
     grid-template-columns: 1fr;
