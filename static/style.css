@@ -197,25 +197,26 @@ nav {
   display: flex;
   gap: 80px;                /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
-  width: 100%;
-  aspect-ratio: 16 / 9;    /* ← 16:9 비율 */
-  margin: 0 auto;
+  width: 2000px;            /* ← 가로 길이 */
+  height: 600px;            /* ← 세로 높이 */
+  margin: 0 auto;           /* ← 가운데 정렬 */
   border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
-  border-radius: 0px;
+  border-radius: 0px;       /* ← 모서리 둥글기 */
   padding: 60px;            /* ← 안쪽 여백 */
   box-sizing: border-box;   /* ← 패딩 포함해서 크기 계산 */
 }
 
 .info-image img {
-  width: 35vw;              /* ← 화면 너비 기준 사진 가로 크기 */
-  height: 45vw;             /* ← 화면 너비 기준 사진 세로 크기 */
-  max-height: 80%;          /* ← 컨테이너 높이 넘지 않게 */
+  margin-left: 0px;    /* ← 숫자 크게 할수록 오른쪽으로 */
+  width: 420px;             /* ← 사진 가로 크기 */
+  height: 320px;            /* ← 사진 세로 크기 */
   object-fit: cover;
   border-radius: 50% 50% 0 0;
   object-position: center 50%;
 }
 
 .info-text h3 {
+  margin-left: 0px;    /* ← 숫자 크게 할수록 오른쪽으로 */
   font-family: 'Playfair Display', serif;
   font-style: italic;
   color: #76805b;
