@@ -96,9 +96,10 @@ nav {
 }
 
 .dropdown {
-  position: absolute;
-  top: 60px;
-  right: 30px;
+  display: none;
+  position: fixed;
+  top: 70px;
+  right: 0;
   background: rgba(255, 255, 255, 0.9);  /* ← 마지막 숫자가 투명도 */
   border: none;                           /* ← 선 없애기 */
   border-radius: 0px;                     /* ← 0이면 사각형 */
