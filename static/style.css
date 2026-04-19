@@ -171,7 +171,7 @@ nav {
   color: #76805b;          /* ← 글씨 색 */
   font-family: 'Playfair Display', serif;
   font-style: italic;
-  margin-top: -10px;         /* ← 로고와 간격 */
+  margin-top: 0px;         /* ← 로고와 간격 */
   margin-bottom: 10px;     /* ← 아래 간격 */
   letter-spacing: 0.15rem;  /* ← 글자 사이 간격 */
   margin-bottom: 0px;    /* ← 추가 */
