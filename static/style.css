@@ -200,8 +200,8 @@ nav {
   width: 100%;      /* ← 화면의 90% 차지, 자동으로 가운데 정렬 */
   height: 600px;            /* ← 세로 높이 */
   margin: 0 auto;           /* ← 가운데 정렬 */
-  border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
-  border-radius: 0px;       /* ← 모서리 둥글기 */
+  border: 2px solid #76805b;  /* ← 선 굵기 | 선 색 */
+  border-radius: 1px;       /* ← 모서리 둥글기 */
   padding: 60px;            /* ← 안쪽 여백 */
   box-sizing: border-box;   /* ← 패딩 포함해서 크기 계산 */
 }
