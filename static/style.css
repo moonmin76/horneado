@@ -155,6 +155,7 @@ nav {
   display: flex;
   gap: 30px;
   justify-content: center;
+  overflow: hidden;
 }
 
 .gallery-grid img {
@@ -183,13 +184,6 @@ nav {
 
 /* 모바일 반응형 */
 @media (max-width: 768px) {
-  .gallery-grid {
-    gap: 5px;
-  }
-  .gallery-grid img {
-    width: 32%;
-    height: 150px;
-  }
   .logo {
     font-size: 2rem;
   }
@@ -197,12 +191,12 @@ nav {
     font-size: 1.1rem;
   }
   .gallery-grid {
-    align-items: center;
-    gap: 15px;
+    gap: 10px;
+    overflow: hidden;
   }
   .gallery-grid img {
-    width: 100%;
-    height: 400px;
+    width: 32%;
+    height: 200px;
   }
   .dropdown {
     width: 100vw;
