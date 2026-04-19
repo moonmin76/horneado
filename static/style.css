@@ -232,7 +232,7 @@ nav {
 }
 
 .info-text {
-  margin-right: 20px;  /* ← 글씨 왼쪽으로, 클수록 더 왼쪽 */
+  margin-right: 40px;  /* ← 글씨 왼쪽으로, 클수록 더 왼쪽 */
 }
 
 /* 모바일 반응형 */
