@@ -193,7 +193,7 @@ nav {
   display: flex;
   gap: 100px;              /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
-  max-width: 30000px;       /* ← 박스 가로 크기 */
+  width: 70%;  /* ← 화면 꽉 채워요 */
   margin: 0 auto;         /* ← 가운데 정렬 */
   border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
   border-radius: 0px;    /* ← 모서리 둥글기, 0이면 사각형 */
@@ -225,14 +225,6 @@ nav {
   color: #76805b;
   line-height: 1.8;
   font-size: 0.95rem;
-}
-
-.info-image {
-  margin-left: -20px;   /* ← 사진 오른쪽으로, 클수록 더 오른쪽 */
-}
-
-.info-text {
-  margin-right: 40px;  /* ← 글씨 왼쪽으로, 클수록 더 왼쪽 */
 }
 
 /* 모바일 반응형 */
