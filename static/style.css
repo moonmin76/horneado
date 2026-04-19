@@ -144,20 +144,19 @@ nav {
 }
 
 .gallery {
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  margin-top: 40px; 
+  padding: 0px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 100%;
 }
 
 .gallery-grid {
   display: flex;
   gap: 30px;
-  justify-content: flex-start;
+  justify-content: center;
   overflow-x: auto;
   padding: 0 10px;
-  scroll-snap-type: x mandatory;
+  box-sizing: border-box;
 }
 
 .gallery-grid img {
@@ -194,14 +193,20 @@ nav {
   .subtitle {
     font-size: 1.1rem;
   }
+  .gallery {
+    width: 100%;
+    max-width: 100%;
+  }
   .gallery-grid {
     gap: 10px;
     padding: 0 10px;
+    justify-content: flex-start;
   }
   .gallery-grid img {
     width: 80vw;
     height: 300px;
     flex-shrink: 0;
+    scroll-snap-align: start;
   }
   .dropdown {
     width: 100vw;
