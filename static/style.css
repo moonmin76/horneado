@@ -193,9 +193,9 @@ nav {
   display: flex;
   gap: 60px;              /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
-  max-width: 3000px;       /* ← 박스 가로 크기 */
+  max-width: 5000px;       /* ← 박스 가로 크기 */
   margin: 0 auto;         /* ← 가운데 정렬 */
-  border: 5px solid #76805b;  /* ← 선 굵기 | 선 색 */
+  border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
   border-radius: 0px;    /* ← 모서리 둥글기, 0이면 사각형 */
   padding: 100px;          /* ← 안쪽 여백, 클수록 높이 늘어남 */
 }
