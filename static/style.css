@@ -189,23 +189,30 @@ nav {
   padding: 60px 40px;
 }
 
+.info {
+  padding: 40px;            /* ← 바깥 여백 */
+}
+
 .info-container {
   display: flex;
-  gap: 100px;              /* ← 사진과 텍스트 사이 간격 */
+  gap: 80px;                /* ← 사진과 텍스트 사이 간격 */
   align-items: center;
-  width: 70%;  /* ← 화면 꽉 채워요 */
-  margin: 0 auto;         /* ← 가운데 정렬 */
+  width: 100%;
+  aspect-ratio: 16 / 9;    /* ← 16:9 비율 */
+  margin: 0 auto;
   border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
-  border-radius: 0px;    /* ← 모서리 둥글기, 0이면 사각형 */
-  padding: 100px;          /* ← 안쪽 여백, 클수록 높이 늘어남 */
+  border-radius: 0px;
+  padding: 60px;            /* ← 안쪽 여백 */
+  box-sizing: border-box;   /* ← 패딩 포함해서 크기 계산 */
 }
 
 .info-image img {
-  width: 300px;
-  height: 380px;
+  width: 35vw;              /* ← 화면 너비 기준 사진 가로 크기 */
+  height: 45vw;             /* ← 화면 너비 기준 사진 세로 크기 */
+  max-height: 80%;          /* ← 컨테이너 높이 넘지 않게 */
   object-fit: cover;
   border-radius: 50% 50% 0 0;
-  object-position: center 50%;  /* ← 숫자 크게 할수록 아래로 내려가요 */
+  object-position: center 50%;
 }
 
 .info-text h3 {
