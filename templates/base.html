@@ -70,14 +70,8 @@
       </a>
     </div>
   </nav>
-  </nav>
-  <div class="dropdown" id="dropdown">
-    ... (드롭다운 내용)
-  </div>
   <div class="subtitle">bake shop</div>
-
   {% block content %}{% endblock %}
-
   <script>
     function toggleMenu() {
       const dropdown = document.getElementById('dropdown');
@@ -86,3 +80,17 @@
   </script>
 </body>
 </html>
+
+이게 base_html 이고
+
+{% extends "base.html" %}
+{% block content %}
+<header></header>
+<section class="gallery">
+  <div class="gallery-grid">
+    <img src="/static/1.jpg" alt="쿠키">
+    <img src="/static/2.jpg" alt="바나나브레드">
+    <img src="/static/3.jpg" alt="피스타치오케이크">
+  </div>
+</section>
+{% endblock %}
