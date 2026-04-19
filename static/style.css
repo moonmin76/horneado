@@ -197,7 +197,7 @@ nav {
   margin: 0 auto;         /* ← 가운데 정렬 */
   border: 3px solid #76805b;  /* ← 선 굵기 | 선 색 */
   border-radius: 0px;    /* ← 모서리 둥글기, 0이면 사각형 */
-  padding: 1000px;          /* ← 안쪽 여백, 클수록 높이 늘어남 */
+  padding: 500px;          /* ← 안쪽 여백, 클수록 높이 늘어남 */
 }
 
 .info-image img {
